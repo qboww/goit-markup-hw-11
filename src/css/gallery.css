@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-item {
+  margin: 12px;
+  width: 400px;
+}
+
+.gallery-link {
+  display: block;
+  width: 300;
+  height: 350px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
