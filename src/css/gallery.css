@@ -8,7 +8,7 @@
   padding: 0px 24px 24px 24px;
 }
 
-.gallery-link{
+.gallery-link {
   display: block;
   width: 400px;
   height: 300px;
@@ -24,7 +24,7 @@
   display: flex;
   justify-content: space-around;
   gap: 24px;
-  padding: 8px;
+  padding: 8px 0px 0px;
 }
 
 .gallery-image {
@@ -39,6 +39,6 @@
   color: black;
 }
 
-h3{
+h3 {
   font-weight: 600;
 }
