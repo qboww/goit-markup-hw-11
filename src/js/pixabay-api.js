@@ -1,5 +1,5 @@
 export function getPhotos(query) {
-  const API_KEY = '39798508-185d62676ae5604e87a61a702';
+  const API_KEY = import.meta.env.VITE_REACT_APP_API_KEY;
   const baseUrl = 'https://pixabay.com/api';
 
   const params = new URLSearchParams({
